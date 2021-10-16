@@ -1,8 +1,0 @@
-form {
-    color: var(--color-light-gray);
-    position:relative
-}
-
-form:active, form:focus, form:hover {
-    color:var(--color-brand)
-}
