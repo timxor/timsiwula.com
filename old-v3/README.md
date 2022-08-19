@@ -1,7 +1,7 @@
-# timsiwula.com
+# old-v3 design
 
-https://www.timsiwula.com 
+- old-v3 design
+![old-v3 design](./old-v3.png)
 
-- new-v4-django (admin dashboard, content management system)
-- old-v3 (current)
-- old-v2 (inspiration from neuralink and openai)
+
+
