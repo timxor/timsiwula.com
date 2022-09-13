@@ -1,0 +1,18 @@
+# file: .htaccess
+# location: /home/timboadmin/timsiwula.com
+
+# instructions: 
+# https://help.dreamhost.com/hc/en-us/articles/215747758-Force-your-site-to-load-securely-with-an-htaccess-file
+
+# hostname: http://timsiwula.com
+
+#Forcing the domain to serve securely using HTTPS (for any site)
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+
+
