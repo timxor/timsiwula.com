@@ -1,4 +1,4 @@
-
-# macos files
-*.DS_Store
+.venv
+__pycache__/
+db.sqlite3
 .DS_Store
