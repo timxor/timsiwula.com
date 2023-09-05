@@ -12,7 +12,7 @@ http://127.0.0.1:8000/
 
 
 
-
+django-admin startapp jobs
 
 
 https://www.linkedin.com/learning/building-a-personal-portfolio-with-django/starting-a-new-project-in-django?u=58684281
