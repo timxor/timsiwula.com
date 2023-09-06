@@ -31,7 +31,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 DEBUG = env.bool("DJANGO_DEBUG")  # new
 
 
-ALLOWED_HOSTS = ["glacial-dusk-44639-aaf20b047263.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["young-eyrie-16755.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
