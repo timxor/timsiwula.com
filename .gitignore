@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 .venv
 __pycache__/
 db.sqlite3
+=======
+# Python files
+__pycache__/
+.venv/
+venv/
+
+# Django files
+staticfiles/
+db.sqlite3
+
+# macOS files
+>>>>>>> 7a862828b78de73e13f87c26254be0d16eec1354
 .DS_Store
