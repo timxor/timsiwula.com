@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "postgres",
-        "USER": "postgres",
-        "PASSWORD": "postgres",
-        "HOST": "localhost",  # set in docker-compose.yml
+        "NAME": "dcfgtdshgm29qi",
+        "USER": "zrqzskzywguumg",
+        "PASSWORD": "79ab80a7bc4bc85642ec46ca16d1ddcdab7689a3c18e4c93097d7198c718f605",
+        "HOST": "ec2-34-193-110-25.compute-1.amazonaws.com",  # set in docker-compose.yml
         "PORT": 5432,  # default postgres port
     }
 }
